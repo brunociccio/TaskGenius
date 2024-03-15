@@ -1,0 +1,21 @@
+﻿@{
+    ViewData["Title"] = "User";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    <dl>
+        <dt>Id do Usuário</dt>
+        <dd>@Model.UserId</dd>
+
+        <dt>Nome de Usuário:</dt>
+        <dd>@Model.Username</dd>
+
+        <dt>Informe a sua Senha</dt>
+        <dd>@Model.Password</dd>
+
+        <dt>Nome Completo do Usuário</dt>
+        <dd>@Model.FullName</dd>
+    </dl>
+</div>
